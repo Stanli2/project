@@ -19,7 +19,7 @@ public class Post {
 
     @NotNull
     @Column(nullable = false)
-    private String intro;
+    private String title;
 
     @NotNull
     @Column(nullable = false)
