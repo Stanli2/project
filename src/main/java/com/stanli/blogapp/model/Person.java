@@ -55,9 +55,13 @@ public class Person implements UserDetails {
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-mm-yyyy")
     private Date dateOfBirth;
 
+    @NotNull
+    @Column(name = "role", nullable = false)
+    private Role role;
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return null;
+        return getRole().getGrantedAuthorities();
     }
 
     @Override
