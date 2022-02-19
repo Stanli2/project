@@ -1,6 +1,6 @@
 package com.stanli.blogapp.service.serviceImplementation;
 
-import com.stanli.blogapp.PersonRepository;
+import com.stanli.blogapp.repository.PersonRepository;
 import com.stanli.blogapp.dto.PersonRequestDto;
 import com.stanli.blogapp.dto.PersonResponseDto;
 import com.stanli.blogapp.model.Person;
