@@ -1,4 +1,4 @@
-package com.stanli.blogapp;
+package com.stanli.blogapp.repository;
 
 import com.stanli.blogapp.model.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
