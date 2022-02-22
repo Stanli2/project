@@ -1,6 +1,5 @@
 package com.stanli.blogapp.security;
 
-import com.stanli.blogapp.model.Person;
 import com.stanli.blogapp.security.filter.JwtRequestFilter;
 import com.stanli.blogapp.service.serviceImplementation.PersonServiceImpl;
 import com.stanli.blogapp.utils.Api_Uri;

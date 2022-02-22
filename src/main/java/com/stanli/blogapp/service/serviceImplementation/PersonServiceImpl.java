@@ -39,7 +39,19 @@ public class PersonServiceImpl implements PersonService, UserDetailsService {
     }
 
     @Override
+    public PersonResponseDto addAdmin(PersonRequestDto requestDto) {
+        return null;
+    }
+
+    @Override
+    public PersonResponseDto removeAdmin(Long id) {
+        return null;
+    }
+
+    @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         return null;
     }
+
+
 }

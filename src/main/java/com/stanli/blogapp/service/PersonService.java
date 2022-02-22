@@ -8,4 +8,8 @@ public interface PersonService {
     PersonResponseDto register(PersonRequestDto requestDto);
 
     PersonResponseDto login(PersonRequestDto requestDto);
+
+    PersonResponseDto addAdmin(PersonRequestDto requestDto);
+
+    PersonResponseDto removeAdmin(Long id);
 }
